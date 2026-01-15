@@ -9,7 +9,7 @@
         }]
     },
     "condition": {
-        "urlFilter": "||discord.com",
+        "urlFilter": "||discord.com|https://*.discord.com",
         "resourceTypes": ["sub_frame"]
     }
 }]

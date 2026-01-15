@@ -29,6 +29,10 @@ function createCSPRule() {
                             operation: "set",
                             value: header,
                         },
+                        {
+                            header: "x-frame-options",
+                            operation: "remove",
+                        },
                     ],
                 },
                 id: 2,
